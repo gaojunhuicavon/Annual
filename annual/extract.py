@@ -5,9 +5,9 @@ import string
 
 import Levenshtein
 
-import label_recognize
-import number_convert
-from parse.parse import parse
+import annual.label_recognize as label_recognize
+import annual.number_convert as number_convert
+from annual.parse.parse import parse
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 

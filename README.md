@@ -18,6 +18,13 @@
 Annual可用于自动识别、提取年报文本中的“董事会报告”章节中的“管理层讨论与分析”部分，
 以及识别、提取年报中含有主谓结构的完整句子
 
+## Installation
+如果需要利用annual进行开发，请先使用setup.py进行安装
+```
+$ cd ${PATH_TO_Annual}
+$ python setup.py install
+```
+
 ## Command line tool
 命令行工具为项目根目录下的command.py文件
 
@@ -39,7 +46,7 @@ Annual可用于自动识别、提取年报文本中的“董事会报告”章�
     ```
 
 ## Develops with Annual
-1. Annual以来于python3.5+，请确保系统中已经安装
+1. Annual需要python3.5+，请确保系统中已经安装
 2. 所需依赖均记录于requirements.txt文件，可使用以下命令安装依赖工具
     ```
     $ pip install -r requirements.txt

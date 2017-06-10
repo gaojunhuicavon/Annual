@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-from extract import Extractor
+from annual.extract import Extractor
 
 _EXTRACT_SECTION = 'exsec'
 _EXTRACT_SENTENCE = 'exsent'
